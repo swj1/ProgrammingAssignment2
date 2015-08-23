@@ -30,6 +30,8 @@ makeCacheMatrix <- function(x = matrix()) {
   # function to return the inverse matrix
   getinv <- function() inv
   
+  # finally create a list of the helper functions
+  # and return this list
   list(set = set, get = get,
        setinv = setinv,
        getinv = getinv)
